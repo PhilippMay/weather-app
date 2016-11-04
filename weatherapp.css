@@ -1,0 +1,50 @@
+.sunny {  background: url("https://s3.eu-central-1.amazonaws.com/beautyboxi/sunny.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.thunder {  background: url("https://s3.eu-central-1.amazonaws.com/beautyboxi/thunder.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.drizzle {  background: url("https://s3.eu-central-1.amazonaws.com/beautyboxi/drizzle.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.rain {  background: url("https://s3.eu-central-1.amazonaws.com/beautyboxi/rain.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.snow {  background: url("https://s3.eu-central-1.amazonaws.com/beautyboxi/snow.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.fog {  background: url("https://s3.eu-central-1.amazonaws.com/beautyboxi/fog.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.clouds {  background: url("https://s3.eu-central-1.amazonaws.com/beautyboxi/clouds.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.block {background-color: rgba(222, 222, 222, 0.5); height: auto; position: absolute; top: 30%;}
+.city {display: block; text-align: center; font-family: 'Libre Baskerville', serif; font-size: 3vw}
+.temp {display: block; text-align: center; font-size: 2vw; text-decoration: none; font-family: 'Libre Baskerville', serif;}
+.temp a {text-decoration: none; font-family: 'Libre Baskerville', serif;}
+div.param {margin-top: 0.5vw; margin-bottom: 0.5vw}
+.param p { display: block; margin: auto; text-align: center; font-size: 1.5vw}
+
+@media screen and (max-width: 480px){
+  .block {background-color: rgba(222, 222, 222, 0.5); height: auto; position: absolute; top: 30%;}
+.city {display: block; text-align: center; font-size: 8vw}
+.temp {display: block; text-align: center; font-size: 7vw; text-decoration: none}
+.temp a {text-decoration: none}
+div.param {margin-top: 0.5vw; margin-bottom: 0.5vw}
+.param p { display: block; text-align: center; font-size: 3vw}  
+}
